@@ -48,10 +48,12 @@ This is the backend for the Test Mekar application, built using Django and Djang
 ## Running Tests
 
 To run the tests and show the coverage, use the following command:
-1.  ```bash
+1.  Run the test
+    ```bash
     coverage run -m pytest
     ```
-2.  ```bash
+2.  Show the coverage
+    ```bash
     coverage report
     ```
 
