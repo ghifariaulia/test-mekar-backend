@@ -1,4 +1,6 @@
 # Test Mekar Backend
+![Django Tests](https://github.com/ghifariaulia/test-mekar-backend/actions/workflows/django-tests.yml/badge.svg)
+[![codecov](https://codecov.io/gh/ghifariaulia/test-mekar-backend/branch/main/graph/badge.svg)](https://codecov.io/gh/ghifariaulia/test-mekar-backend)
 
 This is the backend for the Test Mekar application, built using Django and Django REST Framework.
 
