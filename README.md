@@ -47,10 +47,13 @@ This is the backend for the Test Mekar application, built using Django and Djang
 
 ## Running Tests
 
-To run the tests, use the following command:
-```bash
-python manage.py test
-```
+To run the tests and show the coverage, use the following command:
+1.  ```bash
+    coverage run -m pytest
+    ```
+2.  ```bash
+    coverage report
+    ```
 
 ## License
 
