@@ -1,0 +1,11 @@
+services:
+  test-mekar-backend:
+    container_name: test-mekar-backend
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app 
+      - ./db.sqlite3:/app/db.sqlite3
+    environment:
+      - DEBUG=0
