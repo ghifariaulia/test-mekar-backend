@@ -56,6 +56,9 @@ To run the tests and show the coverage, use the following command:
     ```bash
     coverage report
     ```
+## Running Docker
+
+You can use the run.sh script. Or use docker-compose manually.
 
 ## License
 
